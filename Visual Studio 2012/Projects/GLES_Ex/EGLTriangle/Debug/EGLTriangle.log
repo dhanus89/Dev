@@ -1,0 +1,23 @@
+﻿Build started 13/11/2012 14:14:48.
+     1>Project "C:\Users\senthuran.uthayakuma\Documents\Dev\Visual Studio 2012\Projects\GLES_Ex\EGLTriangle\EGLTriangle.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Dhanus\Dev\Visual Studio 2012\Projects\DXMath\Includes\\" /I..\Common\Include /ZI /nologo /W3 /WX- /Od /Oy- /D __WIN32 /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\DXMath\Source\DXMath.cpp ..\..\DXMath\Source\DXMatrix.cpp ..\..\DXMath\Source\DXTransform.cpp ..\..\DXMath\Source\DXVector.cpp Shader.cpp Triangle.cpp Window.cpp
+         Window.cpp
+         Triangle.cpp
+     1>c:\users\senthuran.uthayakuma\documents\dev\visual studio 2012\projects\gles_ex\egltriangle\triangle.cpp(5): fatal error C1083: Cannot open include file: 'DXVector.h': No such file or directory
+         Shader.cpp
+     1>c:\users\senthuran.uthayakuma\documents\dev\visual studio 2012\projects\gles_ex\egltriangle\shader.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+         DXVector.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\DXMath\Source\DXVector.cpp': No such file or directory
+         DXTransform.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\DXMath\Source\DXTransform.cpp': No such file or directory
+         DXMatrix.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\DXMath\Source\DXMatrix.cpp': No such file or directory
+         DXMath.cpp
+     1>c1xx : fatal error C1083: Cannot open source file: '..\..\DXMath\Source\DXMath.cpp': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\senthuran.uthayakuma\Documents\Dev\Visual Studio 2012\Projects\GLES_Ex\EGLTriangle\EGLTriangle.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.51

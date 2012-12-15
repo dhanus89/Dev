@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triangle", "Triangle\Triangle.vcxproj", "{70C54752-5855-4196-879C-567A1D8F87DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47C93F52-AB4E-4FF9-8D4F-B38CD60A183F} = {47C93F52-AB4E-4FF9-8D4F-B38CD60A183F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "esUtil", "Common\esUtil.vcxproj", "{47C93F52-AB4E-4FF9-8D4F-B38CD60A183F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EGLTriangle", "EGLTriangle\EGLTriangle.vcxproj", "{D2089712-126E-42FB-A7EB-CFEA949B6063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70C54752-5855-4196-879C-567A1D8F87DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70C54752-5855-4196-879C-567A1D8F87DF}.Debug|Win32.Build.0 = Debug|Win32
+		{70C54752-5855-4196-879C-567A1D8F87DF}.Release|Win32.ActiveCfg = Release|Win32
+		{70C54752-5855-4196-879C-567A1D8F87DF}.Release|Win32.Build.0 = Release|Win32
+		{47C93F52-AB4E-4FF9-8D4F-B38CD60A183F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47C93F52-AB4E-4FF9-8D4F-B38CD60A183F}.Debug|Win32.Build.0 = Debug|Win32
+		{47C93F52-AB4E-4FF9-8D4F-B38CD60A183F}.Release|Win32.ActiveCfg = Release|Win32
+		{47C93F52-AB4E-4FF9-8D4F-B38CD60A183F}.Release|Win32.Build.0 = Release|Win32
+		{D2089712-126E-42FB-A7EB-CFEA949B6063}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2089712-126E-42FB-A7EB-CFEA949B6063}.Debug|Win32.Build.0 = Debug|Win32
+		{D2089712-126E-42FB-A7EB-CFEA949B6063}.Release|Win32.ActiveCfg = Release|Win32
+		{D2089712-126E-42FB-A7EB-CFEA949B6063}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
