@@ -1,4 +1,0 @@
-struct LightHelper
-{
-	float member;
-};
